@@ -1,4 +1,5 @@
 # Badlands Box
-Arduino Music Box
-Inspired by [insert link]
-Song: Badlands by Bruce Springsteen
+Arduino Music Box <br/>
+Inspired by [insert link] <br/>
+Song: Badlands by Bruce Springsteen <br/>
+Finished project: [insert link] <br/>

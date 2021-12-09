@@ -1,8 +1,8 @@
-//Music box that plays the melody of Bruce Springsteen's "Badlands" when opened and stops when close
-//Compoments: Arduino, passive buzzer, light dependent resistor,10k Ohm resistor 
+//Music box that plays the melody of Bruce Springsteen's "Badlands" when opened, stops when closed
+//Compoments: Arduino, passive buzzer, light dependent resistor (short: ldr),10k Ohm resistor 
 //Pins used: A0, 7
 
-#include "pitches.h" //file with all notes buzzer could play
+#include "pitches.h" //file with all notes the buzzer could play
 
 //Light Dependent Resistor
 const int ldrPin = A0;
@@ -81,7 +81,7 @@ void loop() {
   }
   else
   {
-    digitalWrite(buzzPin, LOW); //turns of buzzer
+    digitalWrite(buzzPin, LOW); //turns buzzer off
     noteCount = 0; //resets counter
   }
 

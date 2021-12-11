@@ -19,9 +19,13 @@ NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_DS5
 NOTE_B4, NOTE_B4, NOTE_B4, NOTE_CS5, NOTE_B4, NOTE_B4, NOTE_B4, NOTE_GS4, NOTE_A4, NOTE_A4, 
 NOTE_A4, NOTE_A4, NOTE_GS4, NOTE_FS4, NOTE_E4, NO_SOUND, NOTE_DS5, NOTE_E5, NOTE_E5, NOTE_E5, 
 NOTE_DS5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_E5, NOTE_DS5, 
-NOTE_CS5, NOTE_B4, NOTE_GS4, NOTE_B4, NOTE_E5, NOTE_DS5, NOTE_CS5, NOTE_B4, NOTE_E5, NOTE_E5, 
-NOTE_E5, NOTE_DS5, NOTE_CS5, NOTE_B4, NOTE_E5, NOTE_E5,
-}; //56 in total
+NOTE_CS5, NOTE_B4, NOTE_GS4, NOTE_B4, 
+NOTE_E5, NOTE_DS5, NOTE_CS5, NOTE_B4, //woah woah woah woah 
+NOTE_E5, NOTE_E5, //Bad-lands
+NO_SOUND, //break
+NOTE_E5, NOTE_DS5, NOTE_CS5, NOTE_B4, //woah woah woah woah
+NOTE_E5, NOTE_E5 //Bad-lands
+}; //57 in total
 
 //Each tone's duration
 //Full Note = 1, Half Note = 2, ...
@@ -30,9 +34,13 @@ int16_t noteDuration[] = {
 8, 8, 8, 8, 8, 4, 4, 8, 8, 8, 
 8, 8, 8, 8, 8, 8, 8, 16, 16, 16, 
 16, 8, 8, 4, 8, 8, 6, 16, 8, 8, 
-6, 16, 8, 2, 4, 4, 4, 4, 4, 2, 
-4, 4, 4, 4, 2, 1
-}; //56 in total
+6, 16, 8, 2, 
+4, 4, 4, 4, //woah woah woah woah
+4, 2, //Bad-lands
+8, //break
+4, 4, 4, 4, //woah woah woah woah
+2, 1 //Bad-lands
+}; //57 in total
 
 
 const int songPace = 1450; //duration of full note in milliseconds
